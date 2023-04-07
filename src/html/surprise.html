@@ -6,9 +6,9 @@
 <!--[if !IE]><!--><html lang="en"><!-- <![endif]-->
 
 <head>
-  <title>Happy Birthday Savita</title>
+  <title>Happy Birthday Múp</title>
   <meta charset="UTF-8" />
-  <meta name="description" content="Happy Birthday Savita">
+  <meta name="description" content="Happy Birthday Múp">
   <link rel="icon" href="../../images/others/favicon.ico" type="image/x-icon" />
     <meta property="og:description" content="Wish you a very Happy Birthday">
       <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
@@ -35,11 +35,11 @@
   vertical-align: middle;
 }
 .image{
-  height: 140px;
+  height: 180px;
   width: 140px;
   border-radius: 180px;
   border: 3px solid #fff;
-  margin-top: 22px;
+  margin-top: -10px;
   margin-right: 40px;
   
 }
@@ -127,12 +127,10 @@ body{
     <div class="inline-blocks">
       <h2 class="twenty-one block">2</h2>
       <img class="image block" src="../../images/humans/together/us1.jpg">
-      <h2 class="twenty-one block"> 2</h2>
-      <img class="image block" src="../../images/humans/together/us2.jpg">
+      <h2 class="twenty-one block"> 23</h2>
     </div>
-   
-    
-    <h1 class="bday">Happy Birthday <a target="_self" rel="noopener noreferrer" href="../../index.html"> Savita</a></h1>
+  
+    <h1 class="bday">Happy Birthday <a target="_self" rel="noopener noreferrer" href="../../index.html"> Múp</a></h1>
   </div>
 </div>
 </html>
@@ -141,7 +139,7 @@ body{
 
 const TwoPI = Math.PI * 2;
 var w = window.innerWidth;
-var h = window.innerHeight;
+var h = window.innerHeight + 10;
 var center_x = w / 2;
 var center_y = h / 2;
 
@@ -166,7 +164,7 @@ function Firefly(){
   
   this.xvel = this.vel * Math.cos( this.angle_of_attack );
   this.yvel = this.vel * Math.sin( this.angle_of_attack );
-  this.size = 2 + Math.random() * 2;
+  this.size = 4 + Math.random() * 2;
   
   this.phase_diff = Math.random() * TwoPI;
     
